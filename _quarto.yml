@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+format:
+  html:
+    toc: true
+    toc-title: Contents
+    toc-location: right
+    linkcolor: "green"
+    theme: 
+      - zephyr
+      - custom.scss
+website:
+  navbar:
+    search: true
+    title: >
+      forgts
+    background: "primary"
+  page-footer: 
+    border: false
+    background: dark
+    foreground: "#ffffff"
+    left: >
+      Created by Fernanda Aguirre Ruiz
+    center:
+      - icon: github
+        href: https://github.com/fer-aguirre
+      - icon: envelope
+        href: mailto:feraguirre@riseup.net
+    right: >
+        [Powered by Quarto](https://quarto.org/)
+

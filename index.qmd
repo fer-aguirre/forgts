@@ -1,0 +1,32 @@
+---
+title: "forgts"
+format: 
+  html:
+    page-layout: full
+    editor: visual
+    include-in-header:
+      - text: |
+          <style>
+          .panel-tabset > .nav-tabs,
+          .panel-tabset > .tab-content {
+            border: none;
+          }
+          </style>
+---
+
+::: {.panel-tabset .nav-pills}
+
+## Tab 1
+
+Content Tab 1
+
+## Tab 2
+
+Content Tab 2
+
+
+## Tab 3
+
+Content Tab 3
+
+:::
