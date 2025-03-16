@@ -134,3 +134,4 @@ config.ini
 
 # Quarto files
 /.quarto/
+.qodo
