@@ -1,8 +1,8 @@
 /*-- scss:defaults --*/
-$navbar-bg: #300078;
+$navbar-bg: #4d027f;
 $navbar-fg: #ffffff;
 $sidebar-bg: #262626;
-$sidebar-fg: #ff7300;
+$sidebar-fg: #db78ff;
 $sidebar-hl: #ffffff;
 $footer-bg: #000000;
 $footer-fg: #ffffff;
@@ -12,3 +12,10 @@ h1, .h1, h2, .h2, h3, .h3 {
 .panel-tabset {
     margin-top: 50px;
 }
+.navbar-logo {
+    height: 50px !important;
+    width: 50px !important;
+    max-width: unset !important;
+    max-height: unset !important;
+    margin-right: 10px;
+  }
