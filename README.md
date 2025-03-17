@@ -2,6 +2,10 @@
 
 `forgts` is a Python package that extracts cell formatting from Excel files and applies it to `great_tables` objects, allowing for detailed and consistent data representation.
 
+[![image](https://img.shields.io/pypi/v/forgts.svg)](https://pypi.org/project/forgts/)
+[![image](https://img.shields.io/badge/License-MIT-blue.svg)](https://www.gnu.org/licenses/mit)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/fer-aguirre/forgts/issues)
+
 ## Features
 
 - Extracts formatting from Excel spreadsheets.
@@ -46,21 +50,34 @@ Output
 ## Directory Structure
 
 ```
-├── .gitignore                  # Customized .gitignore for Python projects
-├── LICENSE                     # Project's license
-├── pyproject.toml              # Project dependencies
-├── README.md                   # Project README
-├── docs                        # Quarto's rendered documents
-├── _quarto.yml                 # Quarto's config file
-├── custom.scss                 # Quarto's Sass stylesheet
-├── index.qmd                   # Quarto's home page
-└── example                     # Example files and notebooks
-    ├── example.ipynb           # Jupyter Notebook demonstrating usage
-    ├── example.png             # Example images
-    └── example.xlsx            # Example Excel file for demonstrations
+├── .gitignore
+├── LICENSE
+├── README.md
+├── _quarto.yml
+├── custom.scss
+├── docs
+├── example
+│   ├── example.ipynb
+│   ├── example.png
+│   └── example.xlsx
+├── forgts
+│   ├── __init__.py
+│   ├── get_formatting.py
+│   ├── styling.py
+│   └── translate_formatting.py
+├── index.qmd
+├── poetry.lock
+├── pyproject.toml
+├── setup.py
+└── tests
+    ├── test__init__.py
+    ├── test_get_formatting.py
+    ├── test_styling.py
+    └── test_translate_formatting.py
+
 ```
 
-## Contributing
+## Contributing 
 
 Contributions are welcome! Please follow these steps:
 
