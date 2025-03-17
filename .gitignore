@@ -134,4 +134,6 @@ config.ini
 
 # Quarto files
 /.quarto/
+
+# Qodo
 .qodo
